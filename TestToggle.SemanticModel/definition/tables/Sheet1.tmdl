@@ -1,6 +1,11 @@
 table Sheet1
 	lineageTag: 22a8fd1b-c9a2-4d30-a40d-af99bea3a80f
 
+	measure Check = SUM(financials[COGS])
+		lineageTag: 07df3319-fc30-4e0c-b356-877249d2cfb7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Segment
 		dataType: string
 		lineageTag: 24b2ef80-58a0-4c5a-8fd1-ef1aa589390f
