@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TestToggle"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ada3fd62-77c9-4259-b6b1-7a9fa6f75129"
+  }
+}
